@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
 
 .App {
   width: 100%;
@@ -13,8 +18,8 @@
 }
 
 .card{
-  width: 500px;
-  height: 190px;
+  width: 600px;
+  height: 290px;
   padding: 10px;
   display: grid;
   grid-template-columns: .1fr 1fr .5fr;
@@ -44,14 +49,14 @@
 }
 
 .fas{
-  font-size: 3.5rem;
+  font-size: 5.5rem;
 }
 
 .uil{
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   transition: .15s linear;
 }
 
 .uil:hover{
-  font-size: 2.7rem ;
+  font-size: 3.7rem ;
 }
